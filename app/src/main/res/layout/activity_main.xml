@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="197dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@mipmap/tesla_logo"
+            tools:srcCompat="@mipmap/tesla_logo" />
+
+        <TextView
+            android:id="@+id/textView_nama"
+            android:layout_width="260dp"
+            android:textColor="#FFFFFF"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="100dp"
+            android:text="Rendra Aditya Prames"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView_uty"
+            android:layout_width="425dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="20dp"
+            android:text="Universitas Teknology Yogyakarta"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_facebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/custom_button"
+                android:textAllCaps="false"
+                android:drawableLeft="@drawable/ic_facebook"
+                android:text="Facebok" />
+
+            <Button
+                android:textColor="#FFFFFF"
+                android:background="@drawable/custom_button"
+                android:textAllCaps="false"
+                android:id="@+id/button_instagram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:drawableLeft="@drawable/ic_google"
+                android:layout_weight="1"
+                android:text="Instagram" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="100dp"
+            android:textColor="#FFFFFF"
+            android:text="Music Player"
+            android:textSize="24dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_play"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/custom_button"
+                android:textAllCaps="false"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="70dp"
+                android:text="Play" />
+
+            <Button
+                android:id="@+id/button_pause"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/custom_button"
+                android:textAllCaps="false"
+                android:text="Pause" />
+
+            <Button
+                android:id="@+id/button_stop"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/custom_button"
+                android:textAllCaps="false"
+                android:text="Stop" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
